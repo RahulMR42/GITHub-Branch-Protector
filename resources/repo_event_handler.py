@@ -4,8 +4,8 @@ import requests
 
 class git_repo():
     def __init__(self):
-        self.git_user="RahulMR42" #os.enviorn["git_user"]
-        self.git_pat="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" #os.environ["git_pat"]
+        self.git_user=os.enviorn["git_user"]
+        self.git_pat=os.environ["git_pat"]
         self.branch_to_protect="main"
         self.branch_protection_rules=branch_protection = {
                 "required_status_checks": {"strict": True, "contexts": ["default"]},
