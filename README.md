@@ -53,7 +53,7 @@ pipenv run uvicorn app:app --reload
 
 * The ngrok will pick up the event and using the api it will add a protection rule and a new issue will be added and notified to the user.
 
-* Refer the technical deep dive to go in depth.
+* Refer our wiki paged to know in details and add customizations in the protection rules.
 
 
 :eight_spoked_asterisk: Technical Deep Dive:
