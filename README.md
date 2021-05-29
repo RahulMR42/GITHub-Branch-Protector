@@ -15,7 +15,7 @@ A pythonic webservices to react based on GIT HUB Organizational events and add p
 - It also provide a scalable asynchronous gatway interface powered to expose the api using [Uvicorn.](https://www.uvicorn.org/)
   
 
-:eight_spoked_asterisk: Quick Install:
+:eight_spoked_asterisk: Quick Install & Refer [Wiki](https://github.com/RahulMR42/GITHub-Branch-Protector/wiki) for deep dive:
 * We will be leveraging Ngork to intercept the github events.
 * Install [Ngork](https://ngrok.com/) to your host.
 * Run Ngork on your machine.
@@ -53,10 +53,12 @@ pipenv run uvicorn app:app --reload
 
 * The ngrok will pick up the event and using the api it will add a protection rule and a new issue will be added and notified to the user.
 
-* Refer our wiki paged to know in details and add customizations in the protection rules.
+* Refer our [wiki page](https://github.com/RahulMR42/GITHub-Branch-Protector/wiki) to know in details and add customizations in the protection rules.
 
 
 :eight_spoked_asterisk: Technical Deep Dive:
+
+- Refer [wiki](https://github.com/RahulMR42/GITHub-Branch-Protector/wiki) for more informations.
 
 :eight_spoked_asterisk: Objective: Enhancements 
 
