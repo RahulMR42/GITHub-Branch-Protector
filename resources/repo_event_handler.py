@@ -17,7 +17,7 @@ class git_repo():
                                 },
                        "dismiss_stale_reviews": True,
                        "require_code_owner_reviews": True,
-                       #"required_approving_review_count": 2
+                       #"required_approving_review_count": 2 # Disabled for now as this is in preview mode ,read wiki>Lets-Test-the-Flow>tail ends to knore more.
                 },
                 "restrictions": None,
             }
